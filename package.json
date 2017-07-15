@@ -1,7 +1,7 @@
 {
   "name": "@josebarrios/creative-work",
-  "version": "0.1.4",
-  "description": "Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.",
+  "version": "0.1.0",
+  "description": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests/"
@@ -25,7 +25,6 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "@josebarrios/thing": "^0.3.3",
-    "aggregation": "^1.2.0"
+    "@josebarrios/thing": "^0.3.3"
   }
 }

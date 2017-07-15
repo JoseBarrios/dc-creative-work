@@ -1,7 +1,6 @@
 const Thing = require('@josebarrios/thing')
-const Multiple = require('aggregation/es6');
 
-class CreativeWork extends Multiple(Thing){
+class CreativeWork extends Thing{
 
     constructor(model){
       model = model || {};

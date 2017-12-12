@@ -1,6 +1,6 @@
-const Thing = require('@josebarrios/thing')
+const ThingDataController = require('dc-thing')
 
-class CreativeWork extends Thing{
+class CreativeWorkDataController extends ThingDataController {
 
     constructor(model){
       model = model || {};
@@ -85,10 +85,10 @@ class CreativeWork extends Thing{
       this.workExample = model.workExample;
     }
 
-  get workExample() { return this.computed.workExample; }
+  get workExample() { return this.model.workExample; }
   set workExample(value) {
-    this.computed.workExample = value;
+    this.model.workExample = value;
   }
 }
 
-module.exports = CreativeWork;
+module.exports = CreativeWorkDataController;
